@@ -7,7 +7,7 @@ import java.util.List;
  */
 public class ControlSystem {
 
-    private final Elevator[] elevators;
+    final Elevator[] elevators;
 
     public ControlSystem(int numberOfElevators) {
         if (numberOfElevators <= 0 || numberOfElevators > 16) {
